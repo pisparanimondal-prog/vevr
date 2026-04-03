@@ -1,0 +1,7 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "otp-bot/Dockerfile"
+buildContext = "otp-bot"
+
+[deploy]
+restartPolicyType = "always"
